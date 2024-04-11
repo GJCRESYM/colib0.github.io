@@ -15,7 +15,8 @@ body:
       label: Is there an existing issue for this?
       description: Please search to see if an issue already exists for the bug you encountered.
       options:
-      - label: There are no existing issues
+        - label: There are no existing issues
+      validations:
         required: true
   - type: checkboxes
     attributes:
