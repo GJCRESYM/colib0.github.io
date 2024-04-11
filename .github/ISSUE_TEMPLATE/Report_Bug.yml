@@ -17,6 +17,14 @@ body:
       options:
         - label: There are no existing issues
           required: true
+  - type: checkboxes
+    attributes:
+      label: Priority of this issue
+      description: Specify the priority of fixing this issue
+      options:
+        - label: high
+        - label: medium
+        - label: low
   - type: input
     id: contact
     attributes:
