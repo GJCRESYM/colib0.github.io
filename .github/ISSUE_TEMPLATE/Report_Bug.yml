@@ -9,26 +9,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: checkboxes
-    attributes:
-      label: Is there an existing issue for this?
-      description: Please search to see if an issue already exists for the bug you encountered.
-      options:
-        - value: no_existing_issues
-          label: There are no existing issues
-    validations:
-      required: true
-  - type: checkboxes
-    attributes:
-      label: Priority of this issue
-      description: Specify the priority of fixing this issue
-      options:
-        - high
-        - medium
-        - low
-    validations:
-      required: true       
+        Thanks for taking the time to fill out this bug report!     
   - type: input
     id: contact
     attributes:
