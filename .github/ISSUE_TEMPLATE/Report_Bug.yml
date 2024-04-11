@@ -1,5 +1,5 @@
-name: Bug Report
-description: File a bug report
+name: Bug Report- COLib Website
+description: File a bug report about COLib website
 title: "[Bug]: "
 labels: ["bug", "triage"]
 projects: ["Colib0"]
@@ -33,20 +33,18 @@ body:
       label: Describe the expected behaviour
       description: What is the expected behaviour?
       placeholder: Tell us what you see!
-      value: "Display the exected result!"
+      value: "Display the expected result!"
     validations:
-      required: false    
-  - type: dropdown
-    id: version
+      required: false 
+  - type: textarea
+    id: Steps-Reproduce
     attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-      default: 0
+      label: Steps to Reproduce
+      description: Steps to reproduce the behaviour?
+      placeholder: 
+      value: "1. Go to "
     validations:
-      required: true
+      required: false   
   - type: dropdown
     id: browsers
     attributes:
