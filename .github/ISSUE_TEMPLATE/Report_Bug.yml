@@ -43,7 +43,7 @@ body:
       description: Steps to reproduce the behaviour!
       placeholder: Steps to reproduce
       value: "1. Go to "
-  type: textarea
+  - type: textarea
   attributes:
     label: Steps To Reproduce
     description: Steps to reproduce the behavior.
