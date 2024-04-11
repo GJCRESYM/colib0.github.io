@@ -25,6 +25,7 @@ body:
         - label: high
         - label: medium
         - label: low
+          required: true
   - type: input
     id: contact
     attributes:
