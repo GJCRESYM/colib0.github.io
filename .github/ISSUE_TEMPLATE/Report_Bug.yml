@@ -4,7 +4,7 @@ title: "[Bug]: "
 labels: ["bug", "triage"]
 projects: ["Colib0"]
 assignees:
-  - octocat
+  - GJCRESYM
 body:
   - type: markdown
     attributes:
@@ -19,14 +19,23 @@ body:
     validations:
       required: false
   - type: textarea
-    id: what-happened
+    id: Current Behaviour
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
+      label: Describe the current behaviour
+      description: What is the current behaviour?
       placeholder: Tell us what you see!
-      value: "A bug happened!"
+      value: "Expected this instead of that!"
     validations:
       required: true
+  type: textarea
+    id: Expected Behaviour
+    attributes:
+      label: Describe the expected behaviour
+      description: What is the expected behaviour?
+      placeholder: Tell us what you see!
+      value: "Display the exected result!"
+    validations:
+      required: false    
   - type: dropdown
     id: version
     attributes:
