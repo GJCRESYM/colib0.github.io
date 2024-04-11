@@ -43,6 +43,7 @@ body:
       description: Steps to reproduce the behaviour!
       placeholder: Steps to reproduce
       value: "1. Go to "
+              "2. "
     validations:
       required: false   
   - type: dropdown
