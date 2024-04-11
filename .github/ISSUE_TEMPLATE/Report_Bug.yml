@@ -19,7 +19,7 @@ body:
     validations:
       required: false
   - type: textarea
-    id: Current Behaviour
+    id: Current-Behaviour
     attributes:
       label: Describe the current behaviour
       description: What is the current behaviour?
@@ -28,7 +28,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: Expected Behaviour
+    id: Expected-Behaviour
     attributes:
       label: Describe the expected behaviour
       description: What is the expected behaviour?
