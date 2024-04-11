@@ -16,8 +16,8 @@ body:
       description: Please search to see if an issue already exists for the bug you encountered.
       options:
         - label: There are no existing issues
-      validations:
-        required: true
+    validations:
+      required: true
   - type: checkboxes
     attributes:
       label: Priority of this issue
@@ -26,8 +26,8 @@ body:
         - high
         - medium
         - low
-      validations:
-        required: true       
+    validations:
+      required: true       
   - type: input
     id: contact
     attributes:
