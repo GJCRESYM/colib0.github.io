@@ -27,7 +27,7 @@ body:
       value: "Expected this instead of that!"
     validations:
       required: true
-  type: textarea
+  - type: textarea
     id: Expected Behaviour
     attributes:
       label: Describe the expected behaviour
