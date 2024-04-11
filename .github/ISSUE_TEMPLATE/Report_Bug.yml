@@ -43,6 +43,8 @@ body:
       description: Steps to reproduce the behaviour!
       placeholder: Steps to reproduce
       value: "1. Go to "
+    validations:
+      required: false 
   - type: textarea
   attributes:
     label: Steps To Reproduce
@@ -54,8 +56,7 @@ body:
       1. See error...
   validations:
     required: false
-    validations:
-      required: false   
+  
   - type: dropdown
     id: browsers
     attributes:
