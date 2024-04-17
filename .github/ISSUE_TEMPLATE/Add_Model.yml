@@ -17,7 +17,7 @@ body:
       options:
         - label: New Model
         - lable: Modify an existing model
-          required: true
+          
   - type: checkboxes
     attributes:
       label: Priority of this issue
