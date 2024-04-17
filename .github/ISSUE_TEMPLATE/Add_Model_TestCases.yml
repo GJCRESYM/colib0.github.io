@@ -1,0 +1,40 @@
+name: Model/Test Cases Template
+description: Add a model or a Test Cases
+title: "[New Feature]: "
+labels: ["enhancement"]
+projects: ["Colib0"]
+assignees:
+  - GJCRESYM
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this report!   
+  - type: checkboxes
+    attributes:
+      label: Do you want to add a new model or test cases?
+      description: Specifiy if its a new model or test cases
+      options:
+        - label: New Model
+        - label: Test Cases
+    validations:
+      required: true      
+  - type: input
+    id: Name
+    attributes:
+      label: Name
+      description: Name the model/test cases you would like to add?
+      placeholder: ex. HVDC_VSC HVDC Model
+    validations:
+      required: false
+  - type: textarea
+    id: Expected-Behaviour
+    attributes:
+      label: Describe the contribution
+      description: Briefly describe about the contribution
+      placeholder: Tell us what you see!
+      value: ""
+    validations:
+      required: true
+
+
