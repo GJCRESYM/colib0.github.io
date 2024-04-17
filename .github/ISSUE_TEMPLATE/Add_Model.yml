@@ -8,14 +8,15 @@ assignees:
 body:
   - type: markdown
     attributes:
-      value: " Thanks for taking the time to fill out this report! "    
+      value: |
+        Thanks for taking the time to fill out this report!   
   - type: checkboxes
     attributes:
       label: Do you want to add a new model or modify an existing model?
       description: Specifiy if its a new model or request for modification
       options:
         - label: New Model
-        - lable: Modify an existing model
+        - label: Modify an existing model
           
   - type: checkboxes
     attributes:
