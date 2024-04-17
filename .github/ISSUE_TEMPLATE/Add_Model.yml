@@ -19,30 +19,12 @@ body:
         - label: Modify an existing model
     validations:
       required: true      
-  - type: checkboxes
-    attributes:
-      label: Priority of this issue
-      description: Specify the priority of fixing this issue
-      options:
-        - label: high
-        - label: medium
-        - label: low
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
   - type: input
-    id: contact
+    id: Model name
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: Model Name
+      description: Name the model you would like to modify?
+      placeholder: ex. HVDC_VSC HVDC Model
     validations:
       required: false
   - type: textarea
