@@ -1,6 +1,6 @@
-name: Model/Test Cases Template
-description: Add a model or a Test Cases
-title: "[New Feature]: "
+name: Modify Model/Test Cases Template
+description: Modify a model or a Test Cases
+title: "[Enhancement]: "
 labels: ["enhancement"]
 projects: ["Colib0"]
 assignees:
@@ -12,7 +12,7 @@ body:
         Thanks for taking the time to fill out this report!   
   - type: checkboxes
     attributes:
-      label: Do you want to add a new model or test cases?
+      label: Do you want to modify a new model or test cases?
       description: Specifiy if its a new model or test cases
       options:
         - label: New Model
@@ -22,11 +22,21 @@ body:
   - type: input
     id: Name
     attributes:
-      label: Name the model/ test cases you would like to add
+      label: Name the model/ test cases you would like to modify
       description: model/test cases 
       placeholder: ex. HVDC_VSC HVDC Model
     validations:
       required: false
+  - type: checkboxes
+    attributes:
+      label: What is the impact of modification to the new model or test cases?
+      description: Specifiy if its a major change or not!
+      options:
+        - label: minor
+        - label: moderate
+        - label: major
+    validations:
+      required: true
   - type: textarea
     id: Expected-Behaviour
     attributes:
