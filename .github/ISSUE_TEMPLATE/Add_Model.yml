@@ -17,7 +17,8 @@ body:
       options:
         - label: New Model
         - label: Modify an existing model
-          
+    validations:
+      required: true      
   - type: checkboxes
     attributes:
       label: Priority of this issue
