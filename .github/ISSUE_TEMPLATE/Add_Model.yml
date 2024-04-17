@@ -20,7 +20,7 @@ body:
     validations:
       required: true      
   - type: input
-    id: Model name
+    id: Model-Name
     attributes:
       label: Model Name
       description: Name the model you would like to modify?
