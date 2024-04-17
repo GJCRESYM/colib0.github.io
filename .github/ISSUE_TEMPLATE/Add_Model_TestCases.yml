@@ -33,7 +33,7 @@ body:
       label: Describe the contribution
       description: Briefly describe about the contribution
       placeholder: Tell us what you see!
-      value: ""
+      value: "Describe about the contribution"
     validations:
       required: true
 
