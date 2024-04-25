@@ -30,5 +30,11 @@ body:
       value: "Describe about the contribution"
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        Welcome to the bug reporting template!
+        For easier reporting, you can download a pre-formatted markdown template:
+        [Download Markdown Template](https://colib0.github.io/pages/templates/modelTemplate.md)
 
 
