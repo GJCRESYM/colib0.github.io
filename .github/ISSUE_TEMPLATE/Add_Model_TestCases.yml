@@ -32,7 +32,7 @@ body:
       required: true
   - type: markdown
     attributes:
-      label: To begin with, you can download a pre-formatted markdown template:
+      label: To begin with, you can download a pre-formatted markdown template
       value: |
         [Download Model Template](https://github.com/CRESYM/colib0.github.io/blob/5463d2564a273c96ed9c18c777528f9c09dbb2e0/pages/templates/modelTemplate.md)
         [Download Test Case Template](https://github.com/CRESYM/colib0.github.io/blob/5463d2564a273c96ed9c18c777528f9c09dbb2e0/pages/templates/testCaseTemplate.md)
