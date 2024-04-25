@@ -21,14 +21,6 @@ body:
         - label: Test Cases
     validations:
       required: true      
-  - type: input
-    id: Name
-    attributes:
-      label: Name the model/ test cases you would like to add
-      description: model/test case 
-      placeholder: ex. HVDC_VSC HVDC Model
-    validations:
-      required: false
   - type: textarea
     id: Expected-Behaviour
     attributes:
