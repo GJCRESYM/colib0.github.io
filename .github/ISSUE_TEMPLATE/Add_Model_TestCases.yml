@@ -14,9 +14,8 @@ body:
     attributes:
       label: Do you want to add a new model or test case?
       description: |
-        Specifiy if its:
-          * a new model: model is a consistent set of equations describing electric/control/electronic devices that can be considered as a single and coherent piece of a more complex system
-          * a test case: that include a network test system with its list of different static/dynamic models, input data and simulation results
+        * Model is a consistent set of equations describing electric/control/electronic devices that can be considered as a single and coherent piece of a more complex system
+        * Test case that include a network test system with its list of different static/dynamic models, input data and simulation results
       options:
         - label: New Model
         - label: Test Cases
