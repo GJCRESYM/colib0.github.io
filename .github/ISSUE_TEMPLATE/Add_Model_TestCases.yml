@@ -33,8 +33,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Welcome to the bug reporting template!
-        For easier reporting, you can download a pre-formatted markdown template:
-        [Download Markdown Template](https://github.com/CRESYM/colib0.github.io/blob/5463d2564a273c96ed9c18c777528f9c09dbb2e0/pages/templates/modelTemplate.md)
-
+        To begin with, you can download a pre-formatted markdown template:
+        [Download Markdown Model Template](https://github.com/CRESYM/colib0.github.io/blob/5463d2564a273c96ed9c18c777528f9c09dbb2e0/pages/templates/modelTemplate.md)
+        [Download Markdown Test Case Template](https://github.com/CRESYM/colib0.github.io/blob/5463d2564a273c96ed9c18c777528f9c09dbb2e0/pages/templates/testCaseTemplate.md)
 
