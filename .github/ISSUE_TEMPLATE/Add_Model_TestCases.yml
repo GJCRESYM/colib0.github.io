@@ -14,8 +14,8 @@ body:
     attributes:
       label: Do you want to add a new model or test case?
       description: |
-        * Model is a consistent set of equations describing electric/control/electronic devices that can be considered as a single and coherent piece of a more complex system
-        * Test case that include a network test system with its list of different static/dynamic models, input data and simulation results
+        * A model is a consistent set of equations describing electric, control or electronic devices, which can be considered as a single, coherent piece of a more complex system.
+        * A test case that includes a network test system with its list of different static/dynamic models, input data, and simulation results.
       options:
         - label: New Model
         - label: Test Cases
