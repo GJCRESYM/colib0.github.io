@@ -13,7 +13,6 @@ body:
   - type: checkboxes
     attributes:
       label: Do you want to modify a model or test case?
-      description: Specifiy if its a model or test case
       options:
         - label: Model
         - label: Test Case
@@ -29,7 +28,6 @@ body:
   - type: checkboxes
     attributes:
       label: What is the impact of modification to the model or test case?
-      description: Specifiy if its a major change or not!
       options:
         - label: minor
         - label: moderate
@@ -40,7 +38,6 @@ body:
     id: Expected-Behaviour
     attributes:
       label: Briefly describe the modification to the model/ test case
-      description: Describe the modification
       placeholder: Tell us what you see!
       value: "Explain the purpose of the modification"
     validations:
