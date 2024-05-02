@@ -39,7 +39,10 @@ body:
     attributes:
       label: Briefly describe your opinion about the model/testcase
       placeholder: Tell us what you see!
-      value: "Provide your feedback here!"
+      value: |
+        Provide your feedback here!
+
+        Please upload your models/ test case template:
     validations:
       required: true
 
