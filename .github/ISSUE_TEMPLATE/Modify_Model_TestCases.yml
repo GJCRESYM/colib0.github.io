@@ -39,7 +39,10 @@ body:
     attributes:
       label: Briefly describe the modification to the model/ test case
       placeholder: Tell us what you see!
-      value: "Explain the purpose of the modification"
+      value: |
+        Explain the purpose of the modification.
+
+        Please upload your models/ test case template:
     validations:
       required: true
 
